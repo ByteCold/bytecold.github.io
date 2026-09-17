@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 40em;
+
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkC3kaWzU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  font-size: 18px;
+  line-height: 1.6;
+
+  color: #111;
+  background-color: #ffffff;
+}
+
+h1 {
+  margin: 2em 0 0 0;
+  font-size: 28px;
+  font-weight: 300;
+  font-stretch: 100%;
+  font-family: 'Roboto';
+}
+
+.logo{
+  font-weight: bold;
+}
+
+p {
+  margin: 1em 0;;
+}
+
+a {
+  color: #111;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  margin: 1.5em 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+nav {
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  row-gap: 0.1em;
+}
+
+nav a {
+  margin: 0 0.7em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+nav .nav-item{
+  color: #ccc;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
